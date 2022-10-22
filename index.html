@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <title>Andrew Wiltshire</title>
+</head>
+<body>
+<script src="index.js"></script>
+<nav data-toggled="false" data-transitionable="false">
+    <div id="nav-logo-section" class="nav-section">
+        <a href="#">
+            <i class="fi fi-rr-user"></i>
+        </a>
+    </div>
+    <div id="nav-mobile-section">
+        <div id="nav-link-section" class="nav-section">
+            <a href="#">ABOUT</a>
+            <a href="#">WORK</a>
+        </div>
+        <div id="nav-social-section" class="nav-section">
+            <a href="https://twitter.com/aw1lt">
+                <i class="fi fi-brands-twitter"></i>
+            </a>
+            <a href="https://github.com/AW1534" target="_blank">
+                <i class="fi fi-brands-github"></i>
+            </a>
+        </div>
+        <div id="nav-contact-section" class="nav-section">
+            <a href="mailto:aw1lt@icloud.com">GET IN TOUCH</a>
+        </div>
+    </div>
+    <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+        <span>Menu</span>
+        <i class="fa-solid fa-bars"></i>
+    </button>
+</nav>
+
+<main>
+    <article data-index="0" data-status="active">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+            <h3>
+                (WIP)
+            </h3>
+            <br>
+            <p>
+                Crypto Versus is a hacking simulation game designed for programmers, and you interact with it through an API.
+                It was made in collaboration with the legendary <a href="https://github.com/ThePywon">Pywon</a>,
+                and inspired by the legendary game <a href="https://github.com/danielyxie/bitburner">Bitburner</a>
+            </p>
+        </div>
+        <div class="article-title-section article-section">
+            <h2>Crypto Versus</h2>
+            <a href="https://github.com/ProtagonistsWasTaken/crypto_versus">
+                <i class="fi fi-rr-link"></i>
+            </a>
+        </div>
+        <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                <i class="fi fi-rr-angle-left"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                <i class="fi fi-rr-angle-right"></i>
+            </button>
+        </div>
+    </article>
+    <article data-index="1" data-status="inactive">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+            <h3>
+                (WIP)
+            </h3>
+            <p>A game engine written in c++ with few dependencies.</p>
+        </div>
+        <div class="article-title-section article-section">
+            <h2>Neutron Engine</h2>
+            <a href="https://github.com/AW1534/BetterEventSystem">
+                <i class="fi fi-rr-link"></i>
+            </a>
+        </div>
+        <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                <i class="fi fi-rr-angle-left"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                <i class="fi fi-rr-angle-right"></i>
+            </button>
+        </div>
+    </article>
+    <article data-index="2" data-status="inactive">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+            <h3>(WIP)</h3>
+            <p>
+                A multiplayer Terminal RPG game made with <a href="http://github.com/keqae">Beckham</a>. Began as a project to help him learn python,
+                but turned into something bigger.
+            </p>
+        </div>
+        <div class="article-title-section article-section">
+            <h2>rpgtogether</h2>
+            <a href="https://github.com/AW1534/rpgtogether">
+                <i class="fi fi-rr-link"></i>
+            </a>
+        </div>
+        <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                <i class="fi fi-rr-angle-left"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                <i class="fi fi-rr-angle-right"></i>
+            </button>
+        </div>
+    </article>
+    <article data-index="3" data-status="inactive">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+            <p>
+                An Event System library I wrote for Unity because I didn't know it already had one.
+                I then realised it could be used outside of Unity, so here we are I guess.
+            </p>
+        </div>
+        <div class="article-title-section article-section">
+            <h2>BetterEventSystem</h2>
+            <a href="https://bes.rtfd.io">
+                <i class="fi fi-rr-link"></i>
+            </a>
+        </div>
+        <div class="article-nav-section article-section">
+            <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                <i class="fi fi-rr-angle-left"></i>
+            </button>
+            <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                <i class="fi fi-rr-angle-right"></i>
+            </button>
+        </div>
+    </article>
+</main>
+</body>
+</html>
